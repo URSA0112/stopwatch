@@ -5,8 +5,15 @@ const resetButtonElRef = document.getElementById('resetbutton')
 
 let hour  ;
 let min ; 
-let second; 
-const startTimer = ()=>{};
+let sec = 0; 
+const startTimer = ()=>{
+    setInterval (()=>{
+        if (sec < 5)
+      { 
+    TimerElRef.innerHTML = sec++;}},1000)
+
+};
+
 const stopTimer = ()=>{};
 const resetTimer = ()=>{};
 
