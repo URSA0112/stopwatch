@@ -3,15 +3,17 @@ const startButtonElRef = document.getElementById('startbutton')
 const stopButtonElRef = document.getElementById('stopbutton')
 const resetButtonElRef = document.getElementById('resetbutton')
 
-let hour  ;
-let min ; 
-let sec = 0; 
-const startTimer = ()=>{
+let hour = `00`;
+let min = `00`; 
+let sec = `0`; 
+const startTi0mer = ()=>{
     setInterval (()=>{
-        if (sec < 5)
-      { 
-    TimerElRef.innerHTML = sec++;}},1000)
+      for (let i =0;i <10;i++){
 
+        if (sec === 60)}
+      { 
+    TimerElRef.innerHTML = `${hour}.${min}.${sec++}`;}},1000)
+      
 };
 
 const stopTimer = ()=>{};
