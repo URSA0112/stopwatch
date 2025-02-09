@@ -1,3 +1,4 @@
+
 const TimerElRef = document.getElementById('timer')
 const startButtonElRef = document.getElementById('startbutton')
 const stopButtonElRef = document.getElementById('stopbutton')
